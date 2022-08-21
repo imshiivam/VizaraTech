@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Messages | Firebase</title>
+    <!-- <link rel="stylesheet" href="./styles.css" -->
+    <link rel="stylesheet" href="./styless.css">
+</head>
+
+<body>
+    <header>
+        <div class="brandMark">
+            <a href="/">
+                <div class="brandLogo"></div>
+                <div class="brandName">VizaraTech</div>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>Explore Virtual Museums</li>
+                <li><a href="https://vizaratech.com/offerings/">Buy Online</a></li>
+                <li><a href="https://vizaratech.com/resources/">Research & Publications</a></li>
+                <li>Meet Our Artisans</li>
+                <li><a href="https://vizaratech.com/about/">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form action="" id="contactForm">
+            <div class="alert">Login Success</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Username" required/>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="text" placeholder="Password" required/>
+            </div>
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+</body>
+
+</html>
